@@ -1,7 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap");
+
 :root {
 /*
 * Aqui van variables como colores, tipografia, tamaños de letra o elementos
 * Ejemplo:
 */
---color-blanco: #ffffff;
+
+/*Colores neutros*/
+    --color-negro: #000000;
+    --color-blanco: #ffffff;
+    --color-gris: #a19f9f;
+
+/*Paleta de color clara*/
+    --color-nav: #b4c6e7;
+    --color-texto-nav: #c9b1d9;
+    --color-fondo: #a8c4d6;
+    --color-acento: #d4b8c9;
+    --color-acento-hover: #d9b4c2;
+
+/*Colores de texto*/
+    --color-texto-nav: #c9b1d9;
+    --color-texto: #c1aecc;
+    --color-texto-oscuro: #8d769c;
+
+/*Tamaño de texto*/
+  --texto-xs: 0.75rem;
+  --texto-sm: 0.875rem;
+  --texto-base: 0.9rem;
+  --texto-lg: 1rem;
+  --texto-xl: 1.25rem;
+  --texto-2xl: 1.5rem;
+  --texto-3xl: 2rem;
+  --texto-4xl: 5rem;
+
+/*ESPACIADOS*/
+  --espacio-xs: 0.25rem;
+  --espacio-sm: 0.5rem;
+  --espacio-md: 1rem;
+  --espacio-lg: 2rem;
+  --espacio-xl: 4rem;
+  --espacio-2xl: 6rem;
+
+/*BORDES*/
+  --radio-borde: 12px;
+  --radio-borde-lg: 20px;
+  --radio-borde-xl: 30px;
+
+/*SOMBRAS*/
+  --sombra-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --sombra-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --sombra-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+  --sombra-xl: 0 20px 50px rgba(0, 0, 0, 0.15);
+
+/*TRANSICIONES*/
+  --transicion-rapida: 0.2s ease;
+  --transicion-media: 0.4s ease;
+  --transicion-lenta: 0.6s ease;
+
+/*Tipografía*/
+    --fuente-principal: "Manrope", sans-serif;
+    --fuente-titulos: "Syne", sans-serif;
+    --tamaño-base: 16px;
+}
+
+body.modo-oscuro{
+/*Colores neutros*/
+    --color-negro: #000000;
+    --color-blanco: #ffffff;
+    --color-gris: #a19f9f;
+
+/*Paleta de color oscura*/
+    --color-nav: #3b4a6b;
+    --color-texto-nav: #5c4a70;
+    --color-fondo: #3f5575;
+    --color-acento: #524a66;
+    --color-acento-hover: #704A5a;
+
+/*Colores de texto*/
+    --color-texto-nav: #5c4a70;
+    --color-texto: #847991;
+    --color-texto-oscuro: #433750;
 }
