@@ -126,20 +126,13 @@ body p{
   font-size: var(--texto-sm);
 }
 
-/* ============================= */
-/* WRAPPER GENERAL */
-/* ============================= */
-
-.app{
+.page{
   display: flex;
   width: 100%;
   min-height: 100vh;
 }
 
-/* ============================= */
 /* NAVEGACIÓN LATERAL */
-/* ============================= */
-
 nav{
   display: flex;
   justify-content: flex-start;
@@ -171,8 +164,6 @@ nav{
   object-fit: contain;
 }
 
-/* Foto de perfil: funciona como botón (dispara JS) pero visualmente es un link,
-   nunca un botón. Sin fondo, sin borde, sin sombra. */
 #perfil{
   background: none;
   border: none;
@@ -285,10 +276,7 @@ nav button:focus-visible,
   outline-offset: 3px;
 }
 
-/* ============================= */
 /* DASHBOARD */
-/* ============================= */
-
 #dashboard{
   flex: 1;
   min-width: 0;
@@ -308,10 +296,6 @@ header p{
   color: var(--color-texto-oscuro);
   margin-top: var(--espacio-xs);
 }
-
-/* ============================= */
-/* MURO DE ENTRADAS (burbujas tipo comentario) */
-/* ============================= */
 
 #muro{
   display: flex;
@@ -344,19 +328,6 @@ header p{
 .post:hover{
   box-shadow: var(--sombra-xl);
   transform: translateY(-2px);
-}
-
-/* colita de burbuja de comentario */
-.post::after{
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: var(--espacio-lg);
-  width: 18px;
-  height: 18px;
-  background-color: inherit;
-  clip-path: polygon(0 0, 100% 0, 0 100%);
-  transform: translateY(60%);
 }
 
 .post-header{
@@ -392,12 +363,9 @@ header p{
   line-height: 1.6;
 }
 
-/* ============================= */
 /* FOOTER */
-/* ============================= */
-
 footer{
-  text-align: center;
+  text-align: left;
   padding: var(--espacio-md) 0 var(--espacio-sm);
   color: var(--color-texto-oscuro);
   font-size: var(--texto-xs);
