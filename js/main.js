@@ -498,7 +498,7 @@ function crearModalEstres() {
 
 // Botón "Registrar emoción"
 if (btnRegistro) {
-    btnRegistro.addEvelntListener('click', crearModalEmocion);
+    btnRegistro.addEventListener('click', crearModalEmocion);
 }
 
 // Botón "Redactar"
