@@ -9,88 +9,96 @@
 </head>
 
 <body>
+<div class="app">
+  <nav>
 
-  <!-- Parte superior -->
-  <header>
-    <h1>Diario de Humor</h1>  <!-- titulo principal (h1,2,3 progresivos) -->
-    <p>Registra cómo te sientes hoy</p>  <!-- parrafo con texto -->
-  </header>
+    <div id="nav-head">
+      <img src="" alt="logo">
 
-  <!-- Esto es lo que el usuario llena para "publicar" su humor del día, no me acuero q mas pide -->
-  <section id="nuevo-post">
-    <h2>Nueva entrada</h2>
-    <form>
-
-      <label for="humor">¿Cómo te sientes?</label>
-      <select id="humor" name="humor">
-        <option value="feliz">😀 Feliz</option>
-        <option value="triste">😢 Triste</option>
-        <option value="enojado">😠 Enojado</option>
-        <option value="tranquilo">😌 Tranquilo</option>
-        <option value="ansioso">😰 Ansioso</option>
-      </select>
-
-      <label for="texto">Cuéntanos más</label>
-      <textarea id="texto" name="texto" rows="3" placeholder="Escribe aquí lo que sientes..."></textarea>
-
-      <label for="fecha">Fecha</label>
-      <input type="date" id="fecha" name="fecha">
-
-      <button type="submit">Publicar</button>
-
-    </form>
-  </section>
-
-  <!-- muro de post para mostrar tus estados -->
-
-  <section id="muro">
-    <h2>Mis entradas</h2>
-
-    <div class="lista-posts">
-
-      <!-- post1 -->
-      <article class="post">
-        <div class="post-header">
-          <span class="post-emoji">😡</span>
-          <span class="post-fecha">09 de julio, 2026</span>
-        </div>
-        <p class="post-texto">que chinguen a su madre todos, bendecido sea el tab en visual y q no esta tan culero esto.</p>
-      </article>
-
-      <!-- post2 -->
-      <article class="post">
-        <div class="post-header">
-          <span class="post-emoji">😀</span>
-          <span class="post-fecha">09 de julio, 2026</span>
-        </div>
-        <p class="post-texto">Hoy fue un buen día, terminé mis pendientes y salí a caminar.</p>
-      </article>
-
-      <!-- post3 -->
-      <article class="post">
-        <div class="post-header">
-          <span class="post-emoji">😰</span>
-          <span class="post-fecha">08 de julio, 2026</span>
-        </div>
-        <p class="post-texto">Me sentí un poco estresado por el trabajo, pero ya está mejor.</p>
-      </article>
-
-      <!-- post4 (ejemplo) -->
-      <article class="post">
-        <div class="post-header">
-          <span class="post-emoji">😌</span>
-          <span class="post-fecha">07 de julio, 2026</span>
-        </div>
-        <p class="post-texto">Día tranquilo, sin muchas sorpresas.</p>
-      </article>
-
+      <button id="perfil" type="button">
+        <img src="assets/img/emojis/risas (1).png" alt="foto-perfil">
+        <span>Perfil</span>
+      </button>
     </div>
-  </section>
 
-  <!--Marca registrada ajua -->
-  <footer>
-    <p>Diario de Humor &copy; 2026</p>
-  </footer>
+    <hr>
 
+    <div id="buttons">
+      <button id="registro-emocion" type="button">
+        <img src="" alt="icono">
+        <p>Registrar emoción</p>
+      </button>
+      <button id="redactar" type="button">
+        <img src="" alt="icono">
+        <p>Redactar</p>
+      </button>
+      <button id="nivel-estres" type="button">
+        <img src="" alt="icono">
+        <p>Nivel de estrés</p>
+      </button>
+    </div>
+
+    <div id="configuracion">
+      <button id="config-button" type="button">
+        <img src="" alt="icono">
+        <p>Configuración</p>
+      </button>
+    </div>
+  </nav>
+
+  <div id="dashboard">
+    <!-- Parte superior -->
+    <header>
+      <h1>Diario de Humor</h1>
+      <p>Registra cómo te sientes hoy</p>
+    </header>
+
+    <!-- muro de posts para mostrar tus estados -->
+    <section id="muro">
+      <h2>Mis entradas</h2>
+
+      <div class="lista-posts">
+
+        <article class="post">
+          <div class="post-header">
+            <span class="post-emoji">😡</span>
+            <span class="post-fecha">09 de julio, 2026</span>
+          </div>
+          <p class="post-texto">que chinguen a su madre todos, bendecido sea el tab en visual y q no esta tan culero esto.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-header">
+            <span class="post-emoji">😀</span>
+            <span class="post-fecha">09 de julio, 2026</span>
+          </div>
+          <p class="post-texto">Hoy fue un buen día, terminé mis pendientes y salí a caminar.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-header">
+            <span class="post-emoji">😰</span>
+            <span class="post-fecha">08 de julio, 2026</span>
+          </div>
+          <p class="post-texto">Me sentí un poco estresado por el trabajo, pero ya está mejor.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-header">
+            <span class="post-emoji">😌</span>
+            <span class="post-fecha">07 de julio, 2026</span>
+          </div>
+          <p class="post-texto">Día tranquilo, sin muchas sorpresas.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Marca registrada ajua -->
+    <footer>
+      <p>Diario de Humor &copy; 2026</p>
+    </footer>
+  </div>
+</div>
 </body>
 </html>
