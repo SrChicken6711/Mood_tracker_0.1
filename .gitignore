@@ -1,0 +1,25 @@
+# Database
+*.db
+*.sqlite
+*.sqlite3
+database/data.db
+database/data.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Node (si usas npm)
+node_modules/
+package-lock.json

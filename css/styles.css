@@ -16,10 +16,10 @@
     --color-texto-nav: #c9b1d9;
     --color-fondo: #a8c4d6;
     --color-acento: #d4b8c9;
-    --color-acento-hover: #d9b4c2;
+    --color-acento-hover: #f1e9ed;
 
 /*Colores de texto*/
-    --color-texto-nav: #c9b1d9;
+    --color-texto-nav: #6d4785;
     --color-texto: #c1aecc;
     --color-texto-oscuro: #8d769c;
     --color-texto-titulos: #6b5879;
@@ -159,8 +159,8 @@ nav{
 }
 
 #nav-head img[alt="logo"]{
-  width: 42px;
-  height: 42px;
+  width: 70px;
+  height: 70px;
   object-fit: contain;
 }
 
@@ -179,8 +179,8 @@ nav{
 }
 
 #perfil img{
-  width: 34px;
-  height: 34px;
+  width: 70px;
+  height: 70px;
   object-fit: cover;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
@@ -236,7 +236,7 @@ nav button{
   border: none;
   border-radius: var(--radio-borde-lg);
   box-shadow: var(--sombra-sm);
-  background-color: var(--color-acento);
+  background-color: var(--color-blanco);
   font-family: var(--fuente-principal);
   font-size: var(--texto-xs);
   font-weight: 600;
@@ -249,8 +249,8 @@ nav button{
 }
 
 nav button img{
-  width: 22px;
-  height: 22px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
 }
 
